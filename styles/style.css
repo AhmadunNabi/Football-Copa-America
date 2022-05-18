@@ -1,0 +1,147 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*----------------------------
+            Common
+-----------------------------*/
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    margin-right: 124px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*-----------------------------
+        Header and Top part
+-----------------------------*/
+.top {
+    background-color: #2D25A0;
+    margin: 0px 0px 70px 0px;
+    padding-left: 156px;
+    padding-top: 40px;
+}
+
+/* Nav bar */
+.nav ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 0px;
+
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 36px;
+    font-size: 16px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* title and logo */
+.intro {
+    display: flex;
+    margin-top: 70px;
+    gap: 100px;
+}
+
+.title {
+    width: 485px;
+    height: 230px;
+}
+
+.name {
+    font-size: 64px;
+    color: white;
+}
+
+.banner {
+    width: 555px;
+    height: 440px;
+    margin-bottom: 85px;
+}
+
+.banner img {
+    width: 555px;
+    height: 440px;
+}
+
+/*------------------------------
+        Player Profile
+-------------------------------*/
+.player-profile {
+    width: 1050px;
+    margin-bottom: 165px;
+
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 25px;
+    /* grid-column-gap: 30px; */
+}
+
+.player {
+    height: 475px;
+    width: 330px;
+    box-shadow: 0px 0px 15px 15px rgb(235, 235, 235);
+    /* padding-left: 20px; */
+}
+
+.player-info {
+    padding: 15px
+}
+
+.player-photo img {
+
+    width: 300px;
+    height: 255px;
+}
+
+.player-name {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+/*---------------------------
+        Additional Info 
+----------------------------*/
+.additional-info {
+    display: flex;
+}
+
+.individual-info {
+    width: 50%;
+    display: flex;
+    padding: 0px 70px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+
+.thumbnail>img {
+    width: 100%;
+}
