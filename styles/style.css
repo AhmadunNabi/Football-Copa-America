@@ -75,6 +75,7 @@ main {
 }
 
 .banner {
+    padding-left: 100px;
     width: 555px;
     height: 440px;
     margin-bottom: 85px;
